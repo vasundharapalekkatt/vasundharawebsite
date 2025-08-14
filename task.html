@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emerald</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Michroma&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+NSW:wght@100..400&family=Playwrite+PL:wght@100..400&family=Special+Gothic+Expanded+One&display=swap"
+    rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  <style>
+    .brand-text{
+      color: rgb(18, 68, 42);
+      font-family: "Cormorant", serif;
+    }
+    .space {
+      margin-bottom: 90px;
+      margin-top: 100px;
+      font-size: 30px;
+
+
+    }
+
+    .spacee {
+      margin-bottom: 90px;
+      margin-top: 180px;
+      font-size: 30px;
+
+    }
+
+    .loc img {
+      margin-top: 40px;
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      margin-top: 50px;
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card {
+      height: 100%;
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+ .sstyle{
+   font-family: "Dancing Script", cursive;
+ }
+ .psstyle{
+   font-family: "Libertinus Serif", serif;
+ }
+html, body {
+  overflow-x: hidden;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card {
+  max-width: 100%;
+}
+
+  </style>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+
+      <a class="navbar-brand fs-1 fw-bold " href="#">
+        <img src="./images/logo.png" alt="noimage" width="40" height="40" class="me-2">
+        <span class=" brand-text mt-2  fs-2 fw-bold">EMERALD</span> </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto fs-4 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active me-5 text-dark" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle me-5 text-dark " href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu me-5">
+              <li><a class="dropdown-item fs-4 text-dark" href="#">DIAMOND</a></li>
+              <li><a class="dropdown-item fs-4 text-dark" href="#">TRADITIONAL</a></li>
+
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link me-5 text-dark" href="#">Our Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-5 text-dark" href="#">Contact Us</a>
+          </li>
+
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="row">
+      <div class="col-6">
+
+        <img class="ms-5 mt-5"
+          src="https://t3.ftcdn.net/jpg/01/80/95/54/360_F_180955484_2gqku5oFKA23Kh0gAC8oNM3y61xz0o9t.jpg" alt="Noimg">
+
+      </div>
+      <div class="col-6 ">
+        <h1 class="mt-5 brand-text">EMERALD</h1>
+        <h3 class="ms-5 sstyle">-Where timeless elegance meets modern craftsmanship</h3>
+        <p class="mt-5 fs-4 text-dark psstyle">At Emerald, we believe jewelry is more than just an accessory – it’s a reflection of
+          elegance, tradition, and individuality. Our collection blends timeless craftsmanship with contemporary
+          designs, offering everything from dazzling diamonds to exquisite traditional ornaments. Every piece is crafted
+          with precision, using the finest materials, to create jewelry that celebrates life’s special moments. Whether
+          you’re looking for a statement piece for a grand occasion or a delicate design for everyday elegance, Emerald
+          promises unmatched beauty, quality, and sophistication.</p>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section id="diamonds">
+    <h2 class="text-center fw-bold space ">DIAMOND</h2>
+    <div class="row g-4 " data-aos="flip-left">
+      <div class="col">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="https://d25g9z9s77rn4i.cloudfront.net/uploads/product/1118/1660918211_941289e3eaefa3afeae3.png"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Earing - Stud</h5>
+            <p class="card-text"><del>2000/-</del> 1988/-</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card mx-auto " style="width: 18rem;">
+          <img src="./images/Dia earings.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Earings - Zoho</h5>
+            <p class="card-text">2958/-</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="https://d25g9z9s77rn4i.cloudfront.net/uploads/product/944/1680018334_93b357204b185028b03d.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Earings-love</h5>
+            <p class="card-text">999/-</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="https://blog.tanishq.co.in/wp-content/uploads/2024/04/Untitled-1-1-1-min.png" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Earings - classc</h5>
+            <p class="card-text">899/-</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img src="https://i.pinimg.com/736x/d6/67/44/d66744e628ff8d823065f17b7691b66f.jpg" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Earings-Modals</h5>
+            <p class="card-text">1599/-</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+
+        </div>
+
+      </div>
+      <!--2nd row-->
+      <div>
+        <div class="row g-4 " data-aos="flip-right">
+          <div class="col">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="https://caratly.in/cdn/shop/files/0W8A0231.jpg?v=1721887274&width=1946" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Rings - Smple</h5>
+                <p class="card-text">699/-</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="card mx-auto " style="width: 18rem;">
+              <img
+                src="https://www.jewelove.in/cdn/shop/products/jewelove-0-60-cts-h-vvs1-solitaire-platinum-ring-31558442516632.jpg?v=1728474851"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Rings - wedding</h5>
+                <p class="card-text">1999/-</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="./images/Dia ring.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ring - classic</h5>
+                <p class="card-text">999/-</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxQb2hPh9Zu7mY3I-O6BBba9BI1Nt4lbOYmA&s"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ring-Elagant</h5>
+                <p class="card-text">2999/-</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img
+                src="https://www.brilliance.com/cdn-cgi/image/f=webp,width=1440,height=1440,quality=90/sites/default/files/vue/collections/engagement-rings-diamond_og.jpg"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ring-Engage</h5>
+                <p class="card-text">5999/-</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+
+            </div>
+
+          </div>
+          <!--3rd row-->
+          <div>
+            <div class="row g-4 " data-aos="flip-left">
+              <div class="col">
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="https://svtmjewels.com/cdn/shop/files/SV-207-0013.jpg?v=1743761251" class="card-img-top"
+                    alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bangle-doodle</h5>
+                    <p class="card-text">2999/-</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col">
+                <div class="card mx-auto " style="width: 18rem;">
+                  <img
+                    src="https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw881f0d1a/images/hi-res/50D4C1VYC1A02_1.jpg"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bangle-stylish</h5>
+                    <p class="card-text">3999/-</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col">
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="https://manubhai.in/SocialMedia/post_artworks/DABE08554.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bangle-popup</h5>
+                    <p class="card-text"> 1999/-</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col">
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="./images/Dia bangles.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bangles-stunning</h5>
+                    <p class="card-text">1999/-</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col">
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img
+                    src="https://d25g9z9s77rn4i.cloudfront.net/uploads/product/1403/1716958878_ad0be18d82d902291d2f.jpg"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bangle-2in1</h5>
+                    <p class="card-text">tarting from 1999/-</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <!--4throw-->
+              <div>
+                <div class="row g-4" data-aos="flip-right">
+                  <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                      <img
+                        src="https://static.malabargoldanddiamonds.com/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/N/S/NSMRGGEN462NK2_5.jpg"
+                        class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Neck Piece</h5>
+                        <p class="card-text">3999/-</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div class="col">
+                    <div class="card mx-auto " style="width: 18rem;">
+                      <img src="https://assets0.mirraw.com/images/12472949/image_zoom.jpeg?1716108071"
+                        class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Neck Piece-Emerald</h5>
+                        <p class="card-text">11999/-</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                      <img src="https://sehgalgold.com/wp-content/uploads/2022/12/Diamondnecklace1.png"
+                        class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Neck Piece-Engage</h5>
+                        <p class="card-text">8999/-</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                      <img
+                        src="https://theaamara.com/cdn/shop/files/374B148D-417F-44CC-AD23-2A8C0D09FE1B.jpg?v=1730270841"
+                        class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Neck Piece-Modals</h5>
+                        <p class="card-text">7999/-</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                      <img src="https://kallarackalmaharani.in/wp-content/uploads/2024/05/Diamond-necklace-min.jpg"
+                        class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Neck Piece-purple</h5>
+                        <p class="card-text">10999/-</p>
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div>
+
+
+  </section>
+
+  <section id="traditional">
+    <h2 class="text-center spacee fw-bold ">TRADITIONAL</h2>
+    <div class="row g-4" data-aos="zoom-in">
+      <div class="col">
+        <div class="card ms-5" style="width: 18rem;">
+          <img src="./images/trad chain.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Neck Piece 1</h5>
+            <p class="card-text">1999/-</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card " style="width: 18rem;">
+          <img
+            src="https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/productimage/2020/3/1/4e81467d-2c7a-456d-b50f-ca1b5d4737f61583013636544-1.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Neck Piec2</h5>
+            <p class="card-text">2999/-</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://www.sasitrends.com/cdn/shop/files/elegant-Classic-temple-matte-gold-plated-long-haram-2020I-necklace-set-ruby-sasitrends-online-shopping.jpg?v=1732709822&width=1080"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Neck Piec3</h5>
+            <p class="card-text">4999/-</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://yellowchimes.com/cdn/shop/files/71x0kZjWcqL.jpg?v=1742985385&width=533" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Neck Piec5</h5>
+            <p class="card-text">9999/-</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://i.ebayimg.com/images/g/3WAAAOSwguxjDmWT/s-l1200.jpg" class="card-img-top" alt="..."
+            height="160">
+          <div class="card-body">
+            <h5 class="card-title">Neck Piec</h5>
+            <p class="card-text">2999/-</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+
+        </div>
+
+      </div>
+      <div>
+
+        <!--2nd row-->
+
+        <div class="row g-4" data-aos="zoom-in">
+          <div class="col">
+            <div class="card ms-5" style="width: 18rem;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe7zyKupLjVV4Sw1iCpVnWr-aYMFm5nrNhqw&s"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Neck Piece</h5>
+                <p class="card-text">Starting from 1999/-</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="card " style="width: 18rem;">
+              <img src="./images/trad earing.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Earings</h5>
+                <p class="card-text">tarting from 1999/-</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ73plIX5iwsdvoNiejurz7YoPvy47outwV7CgSBFpw-xzx9OoiwYGgIdqEB_JRsKRPyH8&usqp=CAU"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ring</h5>
+                <p class="card-text">tarting from 1999/-</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Fdru-1kJ0-Kf9fXPORBMUnN3RQxuLzjXOUY5ZQhsGzBVabWSUramPsZrvU0o1DPdRlY&usqp=CAU"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bangles</h5>
+                <p class="card-text">tarting from 1999/-</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPDS-oC8sWXlovM8J4pMZ9jMm16DsRfhUKGFhnGPBU88ALinYJcSZwyv4TH4_LL3OQ7HQ&usqp=CAU"
+                class="card-img-top" alt="..." height="160">
+              <div class="card-body">
+                <h5 class="card-title">Jewelry set</h5>
+                <p class="card-text">tarting from 1999/-</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+
+            </div>
+
+          </div>
+          <div>
+
+            <!--3rd row-->
+            <div class="row g-4" data-aos="zoom-in">
+              <div class="col">
+                <div class="card ms-5" style="width: 18rem;">
+                  <img src="https://5.imimg.com/data5/SELLER/Default/2023/5/308130647/FY/PD/PM/63555639/ads-5063.JPG"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Neck Piece</h5>
+                    <p class="card-text">Starting from 1999/-</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col">
+                <div class="card " style="width: 18rem;">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSfUS2G0BDM7UiWxxwrawTmo5F5dyD77T3xnOXeDaZvsQac36JSInZM2H9fAWqkFOBURs&usqp=CAU"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Earings</h5>
+                    <p class="card-text">tarting from 1999/-</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    src="https://www.sasitrends.com/cdn/shop/files/2235D-Multi-emple-Wear-Matt-Gold-Plated-Four-Pieces-Round-AD-Stone-Studded-Lakshmi-Motif-Bangles-Online-Shopping_590eda7e-089e-412d-92df-17390e3d92fc.jpg?v=1743232198&width=1080"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ring</h5>
+                    <p class="card-text">tarting from 1999/-</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="./images/theme0468copycopy.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bangles</h5>
+                    <p class="card-text">tarting from 1999/-</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://www.griiham.in/cdn/shop/files/WhatsAppImage2025-07-29at11.28.36PM.jpg?v=1754749662"
+                    class="card-img-top" alt="..." height="160">
+                  <div class="card-body">
+                    <h5 class="card-title">Jewelry set</h5>
+                    <p class="card-text">tarting from 1999/-</p>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+
+                </div>
+
+              </div>
+              <div>
+
+  </section>
+
+  <section id="location" class="container mt-5">
+    <h2 class="text-center spacee fw-bold mb-5 ">LOCATION</h2>
+    <div class="row text-center">
+
+      <div class="col-4 loc">
+        <h1 class="mt-5">KERALA</h1>
+        <img
+          src="https://content.jdmagicbox.com/comp/kozhikode/m9/0495px495.x495.180626141309.e1m9/catalogue/al-fardan-jewellers-katameri-kozhikode-jewellery-showrooms-o73oc5o32j.jpg?clr="
+          alt="" ">
+    </div>
+    
+    <div class=" col-4 loc">
+        <h1 class="mt-5">TAMIL NADU</h1>
+        <img src="https://i.ytimg.com/vi/4RtoBhJpjf8/hqdefault.jpg" alt="">
+      </div>
+
+      <div class="col-4 loc">
+        <h1 class="mt-5">ANDHRA PRADESH</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHGXcUvBO0YNUFyRmSQHXZwKOwyd0MdXTDEg&s" alt="" ">
+    </div>
+    
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src=" https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</html>
